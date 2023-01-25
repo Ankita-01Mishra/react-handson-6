@@ -140,13 +140,13 @@ const Addstudent = () => {
     <div>
       <form>
        <input type="text" className="form-control"
-          onChange={(e)=> setName(e.target.value)} />
+          onChange={(e)=> setName(e.target.value)} placeholder="Name"/>
        <input type="number" className="form-control"
-          onChange={(e)=> setAge(e.target.value)} />
+          onChange={(e)=> setAge(e.target.value)} placeholder="Age"/>
        <input type="text" className="form-control"
-          onChange={(e)=> setCourse(e.target.value)} />
+          onChange={(e)=> setCourse(e.target.value)} placeholder="Course" />
        <input type="text" className="form-control"
-          onChange={(e)=> setBatch(e.target.value)} />
+          onChange={(e)=> setBatch(e.target.value)} placeholder="Batch" />
       </form>
           <button type="submit" className="btn btn-primary btn_addstudent" onClick={handleSubmit}>
           Submit
